@@ -1,0 +1,15 @@
+# Arquivos de variáveis com segredos e senhas
+*.tfvars
+*.tfvars.json
+local.tfvars
+
+# Estado local do Terraform (contém dados sensíveis do ambiente)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Logs do Terraform
+*.log
+
+*.env
